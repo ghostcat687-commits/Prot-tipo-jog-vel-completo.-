@@ -1,0 +1,25 @@
+{
+  "name": "Bubble Studio 0.1",
+  "short_name": "Bubble Studio",
+  "description": "Ambiente oficial de desenvolvimento da linguagem Bubble: editor, compilador e prévia 3D. Criado por Ruan.",
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone"],
+  "orientation": "any",
+  "background_color": "#070b14",
+  "theme_color": "#070b14",
+  "lang": "pt-BR",
+  "dir": "ltr",
+  "categories": ["developer", "productivity", "utilities"],
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Editor", "short_name": "Editor", "url": "/?panel=editor" },
+    { "name": "Prévia 3D", "short_name": "Prévia", "url": "/?panel=preview" }
+  ]
+}
